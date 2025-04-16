@@ -1,0 +1,17 @@
+snp_detect release 1.0:
+
+This directory contains the source code of the program snp_detect
+a description of which can be found at: 
+
+   http://csnp.unige.ch/csnp_methods.html
+
+The program is written in fortran 77 and can by compiled 
+with the GNU g77 compiler using the following command: 
+
+   g77 -fno-automatic snp_detect.f -o snp_detect
+
+To obtain instructions on how to use program, type 
+
+   snp_detect -h 
+
+May 28 2000, Philipp
